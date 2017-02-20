@@ -1,0 +1,15 @@
+*.iml
+*.ipr
+*.iws
+.gradle
+.mvn
+gradle/
+.idea
+classes
+target
+build
+out
+data
+*generated-sources
+*.log
+*.log.*
