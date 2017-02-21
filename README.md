@@ -18,9 +18,13 @@ IntelliJ -> Open -> .ipr
 
 ###Configuration
 ```
+  application.properties
 - file.download.location=change to location where attachments will be downloaded
 - mail.folder.name= mail folder
-- In resources/hello/integration.xml correctly configure store-uri="imaps://username:password@imap.gmail.com/INBOX"
+
+  resources/hello/integration.xml
+- correctly configure store-uri="imaps://username:password@imap.gmail.com/INBOX"
+
 - Give write access to current user for /var/log/email-poller for creating logs
 ```
 
