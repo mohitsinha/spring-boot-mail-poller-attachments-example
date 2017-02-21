@@ -14,7 +14,9 @@
 
     <int:channel id="receiveChannel" datatype="javax.mail.internet.MimeMessage"/>
 
-
+<!--If username contains '@' use '%40' instead of that
+    for eg: Instead of username abc@xyz.com use abc%40xyz.com
+-->
     <int-mail:inbound-channel-adapter id="imapAdapter"
                                       store-uri="imaps://username:password@imap.gmail.com/INBOX"
                                       java-mail-properties="javaMailProperties"
